@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+header{
+  background-color: #fff;
+  color: #333;
+  padding: 20px 0;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+
+.btn{
+  display: inline-block;
+  background: #fff4cc;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.hero{
+  background-image: url(images/cage.png) ;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 700px;
+  display: grid;
+  place-items: center end;
+  align-items: center;
+  height: 95vh;
+  padding-right: 150px;
+}
+
+.hero-content{
+  width: 35%;
+  margin-bottom: 180px;
+  padding-right: px;
+}
+
+#about .container{
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#about h2{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
