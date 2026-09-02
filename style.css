@@ -37,7 +37,7 @@ nav a{
   font-weight: bold;
 }
 
-
+/* .はclassを指定する時に使う記号で、#はidを指定する時に使う記号。classは同じ名前を複数の要素に付けることができますが、idは1つのページで1つしか使えない。 */
 .btn{
   display: inline-block;
   background: #fff4cc;
@@ -87,9 +87,12 @@ nav a{
   justify-content: space-between;
 }
 
-#service .container{
+#service .container {
   text-align: center;
-  padding: 60px 20px;
+  display: flex;
+  justify-content: space-between;
 }
+
+
 
 
