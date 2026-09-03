@@ -82,11 +82,11 @@ nav a{
   line-height: 1.6;
 }
 
-.features-{
-  display: flex;
-  justify-content: space-between;
-}
+/* #message{
+  
+} */
 
+/* ↓これを書いたら『癒しの空間』のところがズレました */
 #service .container {
   text-align: center;
   display: flex;
