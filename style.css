@@ -82,15 +82,20 @@ nav a{
   line-height: 1.6;
 }
 
-/* #message{
-  
-} */
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+#message{
+  margin-bottom: 30px;
+}
 
 /* ↓これを書いたら『癒しの空間』のところがズレました */
 #service .container {
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 
