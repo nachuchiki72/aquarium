@@ -81,7 +81,7 @@ nav a{
   font-size: 25px;
   line-height: 1.6;
 }
-
+/* 外枠のdivを作ったらCSS当たりました */
 .container{
   display: flex;
   justify-content: center;
