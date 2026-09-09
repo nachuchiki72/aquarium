@@ -62,7 +62,8 @@ nav a{
 
 .hero-content{
   width: 35%;
-  margin-bottom: 180px;
+  margin-bottom: 250px;
+  /* ↑ここを変えたらズレが直った */
   padding-right: px;
 }
 
