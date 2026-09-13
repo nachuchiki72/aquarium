@@ -56,7 +56,6 @@ nav a{
   display: grid;
   place-items: center end;
   align-items: center;
-  height: 95vh;
   padding-right: 150px;
 }
 
@@ -68,11 +67,15 @@ nav a{
 }
 
 #about .container{
+  display: flex;
+  flex-direction: column;
+  /* ↑これを追加したら「about」のズレが直った */
   text-align: center;
   padding: 60px 20px;
 }
 
 #about h2{
+  
   font-size: 34px;
   font-weight: bold;
   margin-bottom: 30px;
@@ -80,7 +83,7 @@ nav a{
 
 #about p{
   font-size: 25px;
-  line-height: 1.6;
+  line-height: 50px;
 }
 /* 外枠のdivを作ったらCSS当たりました */
 .container{
