@@ -113,7 +113,9 @@ nav a{
   margin-top: 50px;
   margin-bottom: 100px;
 }
-
+/* /2026/9/17 */
+/* ↓ここのコードのコメントアウトした部分は私が書いたコード */
+/* コメントアウトしてない部分が園田さんから教えていただいたコード */
 .answer{
   text-align: center;
   /* ↓/2026/9/17/
@@ -121,14 +123,23 @@ nav a{
   background-color: #fff4cc;
   padding: 30px;
   border-radius: 10px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   /* 2026/9/17/ 
   /* ↓これを追加したら点が文字の横に来た */
-  list-style-position: inside;
+  /* list-style-position: inside; */
   max-width: 500px;
-  margin: 0 auto;
+  margin: 100px auto 0;
+  /* margin: 0 auto; */
   line-height: 2;
 }
+/* 2026/9/17/
+/* ↓ulの箱のCSSを追加*/
+.answer ul{
+  display: inline-block;
+  text-align: left;
+  padding-left: 30px;
+}
+
 
 .faq{
   text-align: center;
