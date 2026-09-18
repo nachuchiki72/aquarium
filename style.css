@@ -113,10 +113,14 @@ nav a{
 
 .answer{
   text-align: center;
-  background-color: beige;
+  /* ↓/2026/9/17/
+  色の名前からコードに変えました */
+  background-color: #fff4cc;
   padding: 30px;
   border-radius: 10px;
   margin-top: 100px;
+  /* 2026/9/17/ 
+  /* ↓これを追加したら点が文字の横に来た */
   list-style-position: inside;
   max-width: 500px;
   margin: 0 auto;
@@ -135,7 +139,7 @@ nav a{
   margin-top: 100px;
   margin-bottom: 100px;
   line-height: 2.5;
-  background-color: beige;
+  background-color: #fff4cc;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px 40px;
