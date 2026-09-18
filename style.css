@@ -6,6 +6,8 @@
 
 body{
   font-family: sans-serif;
+  /* 2026/9/17/バックのカラーをつけました */
+  background-color: #afeeee;
 }
 
 .container{
@@ -17,6 +19,7 @@ header{
   background-color: #fff;
   color: #333;
   padding: 20px 0;
+  
 }
 
 header .container{
