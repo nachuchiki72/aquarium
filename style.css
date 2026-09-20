@@ -97,6 +97,7 @@ nav a{
 #message{
   margin-bottom: 30px;
 }
+
 /* ↓これを書いたら横並びになった */
 #service{
   display: flex;
