@@ -105,13 +105,19 @@ nav a{
   gap: 20px
 }
 
+.service-title{
+
+}
+
 #service .container {
   text-align: center;
-  display: flex;
-  justify-content: space-between;
+  display: inline-block;
+  justify-content: space-around;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
+  margin-right: 30px;
+  margin-left: 30px;
   margin-bottom: 100px;
 }
 
